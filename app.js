@@ -49,9 +49,9 @@ const todobreaker = require('./routes/todobreaker');
 // This will configure Passport to use Auth0
 const strategy = new Auth0Strategy(
   {
-    domain: process.env.AUTH0_DOMAIN,
-    clientID: process.env.AUTH0_CLIENT_ID,
-    clientSecret: process.env.AUTH0_CLIENT_SECRET,
+    domain: "themindbreaker.auth0.com",
+    clientID: "IcDamRBUbjLvRmSgucZ5jEOwsS6y3MwI",
+    clientSecret: "3dtO3UddatBxzj0w-ND_2AWJxm1nrGe4WJmxv_tABk8Y5IoyLZ64mNCHrA3fYDyZ",
     callbackURL:
       process.env.AUTH0_CALLBACK_URL || 'http://localhost:3000/callback'
   },
