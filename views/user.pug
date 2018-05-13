@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  br
+  .container
+    div.card(style="width: 18rem;")
+      img.card-img-top(src=user.picture alt=user.nickname)
+      div.card-body
+        p.card-text Bienvenido #{user.nickname}

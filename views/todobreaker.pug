@@ -1,0 +1,21 @@
+extends layout2
+
+
+block content
+  container
+    hr
+    div.row
+      hr
+      div.col-4
+        div.card(id="sidebar")
+          h5.card-title Nuevo ToDo
+          div.card-body
+            form( id='todo-form')
+              input(id='new-todo', class="form-control", placeholder="What needs to be done?", name='title')
+              hr
+              input(type="hidden" role="uploadcare-uploader" name="content" data-images-only="true" id="filecont")
+              hr
+              span#giphyme
+      div.col-8
+        section#main
+         ul#todo-list
