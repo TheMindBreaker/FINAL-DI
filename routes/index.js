@@ -9,7 +9,7 @@ const env = {
   AUTH0_CLIENT_ID: "IcDamRBUbjLvRmSgucZ5jEOwsS6y3MwI",
   AUTH0_DOMAIN: "themindbreaker.auth0.com",
   AUTH0_CALLBACK_URL:
-    process.env.AUTH0_CALLBACK_URL || 'http://localhost:3000/callback'
+    process.env.AUTH0_CALLBACK_URL || 'https://difinal.now.sh/callback'
 };
 
 /* GET home page. */

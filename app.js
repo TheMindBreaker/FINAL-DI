@@ -53,7 +53,7 @@ const strategy = new Auth0Strategy(
     clientID: "IcDamRBUbjLvRmSgucZ5jEOwsS6y3MwI",
     clientSecret: "3dtO3UddatBxzj0w-ND_2AWJxm1nrGe4WJmxv_tABk8Y5IoyLZ64mNCHrA3fYDyZ",
     callbackURL:
-      process.env.AUTH0_CALLBACK_URL || 'http://localhost:3000/callback'
+      process.env.AUTH0_CALLBACK_URL || 'https://difinal.now.sh/callback'
   },
   function(accessToken, refreshToken, extraParams, profile, done) {
     // accessToken is the token to call Auth0 API (not needed in the most cases)
