@@ -1,5 +1,5 @@
 function giphyMe() {
-
+/////giphy request
 request = new XMLHttpRequest;
 request.open('GET', 'https://api.giphy.com/v1/gifs/random?api_key=BysL1XP9tPvHjTdmihls99Vm07Gq2yxV&tag=&rating=G', true);
 
