@@ -1,3 +1,5 @@
+////////Codigo por Fernando Ruiz Velasco  con el apoyo y el tutoria de addyosmani
+
 const express = require('express')
  ,path = require('path')
  ,favicon = require('serve-favicon')
@@ -12,7 +14,7 @@ const express = require('express')
 
 var  mongoose = require('mongoose')
 , io = require('socket.io')
-, mongoURI =  process.env.MONGOLAB_URI || 'mongodb:////fernando:csao1792@todobreaker-0go6h.mongodb.net'
+, mongoURI =  process.env.MONGOLAB_URI || 'mongodb://construtec.mx/todobreaker'
 , Schema = mongoose.Schema
 , ObjectID = Schema.ObjectId
 , Todo = require('./models/todos.js').init(Schema, mongoose)
